@@ -44,9 +44,6 @@ RANDOM_SEED = 42
 
 
 # ---------- ノード密度 ----------
-# 5cmサイズでノードをくっつけたくないなら、
-# いきなり500はかなり厳しいです。
-# まずはこのくらいがおすすめ。
 SURFACE_NODE_COUNT = 100
 INNER_NODE_COUNT = 200
 
@@ -58,11 +55,11 @@ LAYER_COUNT = 9
 AVOID_NODE_OVERLAP = True
 
 # NODE_RADIUS=1.6なら、球同士が接しない理論値は3.2mm以上。
-# 少し余裕を見て3.6〜4.0mmくらい。
+# 少し余裕を見て3.6〜4.0mm。
 SURFACE_NODE_MIN_DISTANCE = 3.8
 
 # INNER_NODE_RADIUS=1.3, NODE_RADIUS=1.6なら、表面-内部の接触回避は2.9mm以上。
-# 余裕を見て3.2〜3.5mmくらい。
+# 余裕を見て3.2〜3.5mm。
 INNER_NODE_MIN_DISTANCE = 3.3
 
 
